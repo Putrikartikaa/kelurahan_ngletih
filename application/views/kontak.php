@@ -70,8 +70,8 @@ $this->load->view('template/menu')?>
     <h4>PETA LOKASI</h4>
     <div class="map-responsive">
       <?php echo $a['maps'] ?>
-
     </div>
+    <br>
   </div>
 </div>
 

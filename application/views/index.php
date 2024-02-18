@@ -1,3 +1,3 @@
 <?php
-// diam itu emas
+// KKNT 2024
 ?>

@@ -5,13 +5,13 @@
 	<!-- meta tag -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keyword" content="Kecamatan Kalimanah, Kalimanah, Portal Kecamatan Kalimanah, Web Kecamatan Kalimanah">
-	<meta name="description" content="Portal Resmi Kecamatan Kalimanah">
+	<meta name="keyword" content="Kelurahan Ngletih, Ngletih, Portal Kelurahan Ngletih, Web Kelurahan Ngletih">
+	<meta name="description" content="Portal Resmi Kelurahan Ngletih">
 	<!-- nggo responsive -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- favicon -->
 	<link rel="icon" href="<?=base_url('assetss/favicon/') . $iden['favicon']?>">
-	<title><?php echo SITE_NAME . "  Kalimanah - " . ucfirst($this->uri->segment(1)) ?></title>
+	<title>Kelurahan Ngletih</title>
 	<!-- Bootstrap core CSS -->
 	<link href="<?=base_url('assetss/css/bootstrap.min.css')?>" rel="stylesheet">
 	<!-- Custom styles-->

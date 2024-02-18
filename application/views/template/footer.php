@@ -1,7 +1,7 @@
 <div id="footer" class="footer">
 	<div class="container">
 		<a href="#" class="float-right fas fa-arrow-alt-circle-up fa-2x" style="color: #ffffff"></a>
-		Copyright &copy;  <?php echo date("Y") ?> Kecamatan Kalimanah | Made with <span i class="fa fa-heart" style="color:#DC3545"> </span> by Bhinneka Software in SMKN 1 Purbalingga | Distributed by <a href="https://blogbugabagi.blogspot.com" target="_blank" rel="noopener noreferrer">BlogBugaBagi</a>
+		Copyright &copy;  <?php echo date("Y") ?> Kelurahan Ngletih</a>
 	</div>
 </div>
 </main>

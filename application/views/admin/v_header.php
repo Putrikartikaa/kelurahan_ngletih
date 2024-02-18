@@ -10,9 +10,9 @@ $jum_pesan = $query->num_rows();
   <!-- Logo -->
   <a href="<?php echo site_url('admin/dashboard') ?>" class="logo">
     <!-- mini logo for sidebar mini 50x50 pixels -->
-    <span class="logo-mini">APM</span>
+    <span class="logo-mini">ADM</span>
     <!-- logo for regular state and mobile devices -->
-    <span class="logo-lg">Admin PoMat</span>
+    <span class="logo-lg">Admin Dashboard</span>
   </a>
 
   <!-- Header Navbar: style can be found in header.less -->
