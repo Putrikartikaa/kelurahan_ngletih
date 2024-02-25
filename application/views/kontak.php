@@ -79,6 +79,4 @@ $this->load->view('template/menu')?>
 
 
 </div>
-<!-- end feature yo-->
-<!-- FOOTER -->
 <?php $this->load->view('template/footer')?>

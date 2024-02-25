@@ -39,7 +39,7 @@ $this->load->view('admin/v_menu');
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          Daftar Desa
+          Daftar Ketua RT & RW Kelurahan Ngletih
           <small></small>
         </h1>
         <?php $this->load->view('admin/v_bread')?>

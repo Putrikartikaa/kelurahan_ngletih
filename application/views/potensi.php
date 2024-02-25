@@ -9,7 +9,7 @@ $this->load->view('template/menu')?>
 
       <!-- Blog Entries Column -->
       <div class="col-md-8">
-        <h3 class="p-title">POTENSI <span style="color:#DC3545;"></span></h3>
+        <h3 class="p-title">POTENSI KELURAHAN & UMKM<span style="color:#DC3545;"></span></h3>
         <?php echo $this->session->flashdata('msg'); ?>
         <?php foreach ($data->result() as $row): ?>
          <a href="<?php echo site_url('potensi/vw:' . $row->slug); ?>">

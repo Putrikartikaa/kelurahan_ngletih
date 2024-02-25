@@ -38,11 +38,8 @@ $jum_pesan = $query->num_rows();
           <li class="<?php if ($this->uri->segment(2) == "struktur") {echo "active";}?>">
             <a href="<?php echo base_url() . 'admin/struktur' ?>"><i class="fa fa-sitemap"></i> Strukutur Organisasi</a>
           </li>
-          <li class="<?php if ($this->uri->segment(2) == "pegawai") {echo "active";}?>">
-            <a href="<?php echo base_url() . 'admin/pegawai' ?>"><i class="fa fa-users"></i> Profil Pegawai</a>
-          </li>
           <li class="<?php if ($this->uri->segment(2) == "desa") {echo "active";}?>">
-            <a href="<?php echo base_url() . 'admin/desa' ?>"><i class="fa fa-flag"></i> Desa</a>
+            <a href="<?php echo base_url() . 'admin/desa' ?>"><i class="fa fa-flag"></i> RT/RW</a>
           </li>
         </ul>
       </li>
@@ -100,7 +97,6 @@ $jum_pesan = $query->num_rows();
         </a>
         <ul class="treeview-menu">
           <li class="<?php if ($this->uri->segment(2) == "alurlayanan") {echo "active";}?>"><a href="<?php echo base_url() . 'admin/alurlayanan' ?>"><i class="fa fa-hand-o-right"></i>Alur Layanan</a></li>
-          <li class="<?php if ($this->uri->segment(2) == "denahlayanan") {echo "active";}?>"><a href="<?php echo base_url() . 'admin/denahlayanan' ?>"><i class="fa fa-street-view"></i>Denah Layanan</a></li>
           <li class="<?php if ($this->uri->segment(2) == "jenispelayanan") {echo "active";}?>"><a href="<?php echo base_url() . 'admin/jenispelayanan' ?>"><i class="fa fa-tasks"></i>Jenis Layanan</a></li>
         </ul>
       </li>

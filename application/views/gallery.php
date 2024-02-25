@@ -26,13 +26,9 @@ $this->load->view('template/menu')?>
               <option value="<?php echo $row->id; ?>"><?php echo $row->nama; ?></option>
             <?php endforeach;?>
           </select>
-
         </form>
         <br>
-
-
         <div id="result" class="row no-gutters">
-
       </div>
     </div>
   </div>

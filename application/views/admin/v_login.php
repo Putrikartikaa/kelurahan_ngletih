@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Login Kalimanah</title>
+  <title>Login Admin</title>
   <meta charset="UTF-8">
   <meta name="keyword" content="Kecamatan Kalimanah, Kalimanah, Portal Kecamatan Kalimanah, Web Kecamatan Kalimanah">
   <meta name="description" content="Portal Resmi Kecamatan Kalimanah">
@@ -45,7 +45,7 @@
       <div class="wrap-login100">
         <div class="login100-form-title" style="background-image: url(<?php echo base_url() . 'assetss/images/bg-01.jpg' ?>);">
           <span class="login100-form-title-1">
-            Login Admin Website Kalimanah
+            Login Admin Website Kelurahan Ngletih
           </span>
         </div>
 

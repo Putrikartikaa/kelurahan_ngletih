@@ -4,12 +4,16 @@ $this->load->view('template/menu')?>
   <?php $this->load->view('template/pathway')?>
   <div class="featurette-divider"></div>
   <div class="container">
+  <b> » Silahkan mengunjungi portal resmi website SAKTI untuk mendapatkan info terbaru dan terkini mengenai dokumen yang diperlukan. </b> <br>
+  Klik Disini : <a href="https://disdukcapil.kedirikota.go.id/sakti/">Sistem Administrasi Kependudukan Berbasis Teknologi Informasi [ SAKTI ]</a>
+  <br>
+  Anda juga dapat menguduh dokumen yang diperlukan melalui website ini di Menu Media/Download.
+  <br><br>
     <div class="row">
       <?php $row = $jp->row_array()?>
       <!-- Blog Entries Column -->
       <div class="col-md-8">
-
-       <h3 class="p-title"><?php echo $row['judul'] ?> <span style="color:#DC3545;"></span></h3>
+       <h3 class="p-title">Jenis Pelayanan</h3>
        <!-- Post Content -->
        <div class="tab">
         <?php
@@ -43,5 +47,10 @@ foreach ($jp->result_array() as $x):
 
 </div>
 <!-- end feature yo-->
+<br>
+<br>
+<br>
+<br>
+<br>
 <!-- FOOTER -->
 <?php $this->load->view('template/footer')?>

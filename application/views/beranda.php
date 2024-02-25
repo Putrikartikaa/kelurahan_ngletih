@@ -18,7 +18,7 @@ foreach ($slider->result_array() as $i):
 			        <div class="container" style="z-index: 1">
 			          <div class="carousel-caption">
 			            <h1><b>Selamat Datang di Portal Resmi</b></h1>
-			            <h2><b>Pemerintah Kecamatan Kalimanah</b></h2>
+			            <h2><b>Website Kelurahan Ngletih Pesantren</b></h2>
 			          </div>
 			        </div>
 			      </div>
@@ -245,7 +245,7 @@ $b = $ber_pertama->row_array();
       <div class="col-sm-6">
         <?php $a = $identitas->row_array()?>
         <div class="box">
-          <h4>KECAMATAN KALIMANAH</h4>
+          <h4>KELURAHAN NGLETIH</h4>
           <br/>
           <div class="media">
             <div class="media-left"><i class="icons fa fa-map-marker"></i></div>

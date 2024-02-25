@@ -41,7 +41,7 @@ $this->load->view('admin/v_menu');
       <!-- Content Header (Page header) -->
       <section class="content-header">
         <h1>
-          List Potensi
+          Daftar Potensi & UMKM
           <small></small>
         </h1>
         <?php $this->load->view('admin/v_bread')?>
@@ -56,7 +56,7 @@ $this->load->view('admin/v_menu');
 
               <div class="box">
                 <div class="box-header">
-                  <a class="btn btn-success btn-flat" href="<?php echo base_url() . 'admin/potensi/add_potensi' ?>"><span class="fa fa-plus"></span> Post potensi</a>
+                  <a class="btn btn-success btn-flat" href="<?php echo base_url() . 'admin/potensi/add_potensi' ?>"><span class="fa fa-plus"></span> Buat Postingan</a>
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body">
