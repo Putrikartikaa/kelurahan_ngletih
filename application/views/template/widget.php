@@ -112,18 +112,3 @@
 
 </div>
 </div>
-<!-- Categories Widget -->
-<div class="card my-4">
- <h5 class="card-header bg-danger text-white">Kategori Berita</h5>
- <div class="card-body">
-  <div class="blog-category_block">
-    <ul>
-      <?php foreach ($allkate->result() as $row): ?>
-        <li><a href="<?php echo site_url('berita/kategori/' . str_replace(" ", "-", $row->nama)); ?>"><?php echo $row->nama; ?><i class="fa fa-caret-right" aria-hidden="true"></i></a></li>
-      <?php endforeach;?>
-    </ul>
-  </div>
-</div>
-</div>
-
-<!-- Side Widget -->
