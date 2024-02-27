@@ -41,6 +41,9 @@ foreach ($data->result() as $row):
 
 </div>
 <br>
+<br>
+<br>
+<br>
 <!-- end feature yo-->
 <!-- FOOTER -->
 <?php $this->load->view('template/footer')?>

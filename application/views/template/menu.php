@@ -57,16 +57,11 @@
     <li <?php echo (($this->uri->segment(1) == "potensi") ? 'class="nav-item active"' : 'class="nav-item "') ?>>
       <a class="nav-link" href="<?php echo base_url() . 'potensi'; ?>">UMKM</a>
     </li>
-    <li class="nav-item dropdown <?php if ($this->uri->segment(1) == "media" || $this->uri->segment(1) == "download") {
-	echo 'active';}?>">
-     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-      Media
-    </a>
-    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-      <a <?php echo (($this->uri->segment(1) == "gallery") ? 'class="dropdown-item active"' : 'class="dropdown-item "') ?>" href="<?php echo base_url() . 'media/gallery'; ?>">Foto</a>
-      <a <?php echo (($this->uri->segment(1) == "download") ? 'class="dropdown-item active"' : 'class="dropdown-item "') ?> href="<?php echo base_url() . 'download'; ?>">Download</a>
-    </div>
+
+  <li <?php echo (($this->uri->segment(1) == "kontak") ? 'class="nav-item active"' : 'class="nav-item "') ?>>
+    <a class="nav-link" href="<?php echo base_url() . 'download'; ?>">Dokumen</a>
   </li>
+
   <li <?php echo (($this->uri->segment(1) == "kontak") ? 'class="nav-item active"' : 'class="nav-item "') ?>>
     <a class="nav-link" href="<?php echo base_url() . 'kontak'; ?>">Kontak</a>
   </li>

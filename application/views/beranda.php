@@ -177,8 +177,6 @@ $b = $ber_pertama->row_array();
      <div class="col-md-5">
        <h2 class="p-title1" style="margin-bottom: 70px;">POTENSI <span style="color:#DC3545;">DESA</span></h2>
        <a href="<?php echo site_url('potensi'); ?>" class="btn btn-danger">Lihat Selengkapnya</a>
-
-
      </div>
      <div class="col-md-7 ">
       <div class="grouppalsu row">
@@ -203,22 +201,23 @@ $b = $ber_pertama->row_array();
 </div>
 </div>
 
-<!-- Gallery -->
+<style>
+  .centered-text {
+    text-align: center;
+    color: #ffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+</style>
 <div class="section" id="media" style="background: black">
- <!-- <h4 class="p-title"><span style="color:#DC3545;">GALLERY</span></h4> -->
- <!-- <div class="row"> -->
- <!--  <div class="col-sm-4 col-md-4">
-
- </div> -->
- <br>
+<h4 class="centered-text">GALERI <span style="color:#DC3545;">TERBARU</span></h4>
  <div class="col-sm-12 col-md-12">
   <div class="row">
    <?php foreach ($galeri->result() as $row): ?>
     <div class="col-sm-2  col-md-2" >
       <div class="hovereffect">
-        <a href="<?php echo site_url('gallery') ?>" class="media-item">
+        <a class="media-item">
           <img src="<?php echo site_url('assets/images/') . $row->gambar ?>" alt="" class="img-fluid bg1">
-          <i class="fa fa-camera icon fa-2x" style="color: gray;right: 10px;position: absolute;top: 7px;"></i>
           <div class="overlay">
             <h2><?php echo $row->judul ?></h2>
           </div>
@@ -227,7 +226,6 @@ $b = $ber_pertama->row_array();
     </div>
   <?php endforeach;?>
 </div>
-
 
 <div id="instafeed" class="row">
 </div>

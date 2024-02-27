@@ -32,7 +32,6 @@ $this->load->view('template/menu')?>
       </div>
     </div>
   </div>
-
 </div>
 </section>
 

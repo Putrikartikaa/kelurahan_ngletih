@@ -2,7 +2,7 @@
 class M_identitas extends CI_Model {
 
 	function get_all_identitas() {
-
+		
 		$hsl = $this->db->get_where('tb_identitas', array('id' => '1'));
 
 		return $hsl;

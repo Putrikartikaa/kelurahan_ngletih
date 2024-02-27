@@ -18,19 +18,18 @@ class Gallery extends CI_Controller {
 		$x['albumda'] = $this->m_galeri->ambil_album();
 		$x['ig'] = $this->m_instagram->get_all_instagram();
 		$x['iden'] = $this->m_identitas->get_all_identitas();
-		// var_dump($data->result());
+		//var_dump($data->result());
 		$this->load->view('gallery', $x);
 	}
 	function get_subkategori() {
-		$id = $this->input->post('id');
-		if ($id != 0) {
-			$data = $this->m_galeri->ambil_gambar($id);
-			echo json_encode($data);
-		} else {
-			$data = $this->m_galeri->ambil_gallery()->result_array();
-			echo json_encode($data);
-		}
-
-	}
-
+        $id = $this->input->post('id');
+        if ($id != 0) {
+            $data = $this->m_galeri->ambil_gambar($id);
+            echo json_encode($data);
+        } else {
+            $data = $this->m_galeri->ambil_gallery()->result_array();
+            echo json_encode($data);
+        }
+    }
 }
+?>
