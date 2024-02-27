@@ -5,7 +5,7 @@
 	<!-- meta tag -->
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="keyword" content="Kelurahan Ngletih, Ngletih, Portal Kelurahan Ngletih, Web Kelurahan Ngletih">
+	<meta name="keyword" content="Ngletih adalah sebuah kelurahan yang terletak di Kecamatan Pesantren, Kota Kediri, Provinsi Jawa Timur, Indonesia.">
 	<meta name="description" content="Portal Resmi Kelurahan Ngletih">
 	<!-- nggo responsive -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

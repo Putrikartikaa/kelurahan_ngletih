@@ -99,6 +99,7 @@ $b = $ber_pertama->row_array();
           <br>
         </div>
       </div>
+      <br>
       <center>
         <a href="<?php echo site_url('berita'); ?>" class="btn btn-outline-danger">Lihat Seluruh Berita</a>
       </center>
