@@ -28,6 +28,7 @@
 	<link rel="stylesheet" href="<?php echo base_url('assetss/fullcalendar/fullcalendar.print.css') ?>" media="print">
 	<!-- rampungfullcalendar -->
 	<link href="<?php echo base_url('assetss/css/dataTables.bootstrap4.min.css') ?>" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 
 	<?php
 function limit_words($string, $word_limit) {

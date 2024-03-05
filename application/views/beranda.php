@@ -179,24 +179,26 @@ $b = $ber_pertama->row_array();
        <h2 class="p-title1" style="margin-bottom: 70px;">POTENSI <span style="color:#DC3545;">DESA</span></h2>
        <a href="<?php echo site_url('potensi'); ?>" class="btn btn-danger">Lihat Selengkapnya</a>
      </div>
-     <div class="col-md-7 ">
-      <div class="grouppalsu row">
-        <?php foreach ($potensi->result() as $row): ?>
-          <a href="<?php echo site_url('potensi/vw:' . $row->slug); ?>">
-            <div class="col-md-4 col-sm-4"  style="margin-bottom: 10px">
-             <div class="card">
-              <img class="card-img-top" src="<?php echo 'assets/images/potensi/' . $row->gambar ?>" alt="Card image cap">
-              <div class="card-body">
-                <a href="<?php echo site_url('potensi/vw:' . $row->slug); ?>"><h6 class="card-title"><?php echo $row->judul ?></h6></a>
-              </div>
-              <div class="card-footer">
-                <small class="text-muted"><i class="fa fa-calendar"></i> Posted <?php echo $row->tanggal1 ?></small>
-              </div>
+     <div class="col-md-7">
+  <div class="row">
+    <?php foreach ($potensi->result() as $row): ?>
+      <div class="col-md-4 col-sm-4 mb-3">
+        <a href="<?php echo site_url('potensi/vw:' . $row->slug); ?>">
+          <div class="card h-100">
+            <img class="card-img-top" src="<?php echo 'assets/images/potensi/' . $row->gambar ?>" alt="Card image cap">
+            <div class="card-body">
+              <a href="<?php echo site_url('potensi/vw:' . $row->slug); ?>"><h6 class="card-title"><?php echo $row->judul ?></h6></a>
+            </div>
+            <div class="card-footer">
+              <small class="text-muted"><i class="fa fa-calendar"></i> Posted <?php echo $row->tanggal1 ?></small>
             </div>
           </div>
         </a>
-      <?php endforeach;?>
-    </div>
+      </div>
+    <?php endforeach;?>
+  </div>
+</div>
+
   </div>
 </div>
 </div>
